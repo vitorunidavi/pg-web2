@@ -19,26 +19,21 @@
         <label for="iemail">E-mail: </label>
         <input type="text" name="iemail" id="iemail" placeholder="Informe seu e-mail">
         <br>
+        <label for="iendereco">Endereço: </label>
+        <input type="text" name="iendereco" id="iendereco" placeholder="Informe seu endereço">
+        <br>
+        <label for="imoradia">Moradia: </label>
+        <select name="imoradia" id="imoradia">
+            <option value="casa">Casa</option>
+            <option value="apartamento">Apartamento</option>
+            <option value="outro">Outro</option>
+        </select>
+        <br>
         <label for="tmensagem">Mensagem: </label>
         <textarea name="tmensagem" id="tmensagem" placeholder="Qual sua mensagem"></textarea>
         <br>
         <br>
         <button type="submit" name="benviar" id="benviar">Enviar</button>
     </form>
-    <br>
-</body>
-</html>
- <!-- Formulário para enviar os números -->
- <form method="post">
-        <label for="num1">Número 1:</label>
-        <input type="number" name="num1" id="num1" required>
-        <br>
-        <label for="num2">Número 2:</label>
-        <input type="number" name="num2" id="num2" required>
-        <br>
-        <button type="submit">Calcular Soma</button>
-    </form>
-
-    <a href="index.php">Voltar</a>
 </body>
 </html>
